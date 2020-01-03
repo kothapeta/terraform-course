@@ -1,3 +1,3 @@
-provider "aws" { 
-    region = "${var.AWS_REGION}"
+provider "aws" {
+  version = "~> 2.7" 
 }
